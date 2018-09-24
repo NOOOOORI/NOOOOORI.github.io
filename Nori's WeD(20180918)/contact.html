@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-widthx, initial-scale=1">
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+</head>
+<body id="contact">
+
+<!--header-->
+<header>
+	<div class="logo">
+		<a href="index.html">
+			<h2>Nori's WeD</h2>
+		</a>
+	</div>
+	<nav>
+		<ul class="global-nav">
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+<!--header-->
+<!--wrap-->
+<main id="wrap">
+	<div class="content">
+		<div class="main-center">
+			<h1>Contact</h1>
+			<p>サイトや写真についてのお問い合わせ等は下記フォームページからお気軽にお問い合わせください。</p>
+			<section>
+				<h2 class="icon">Contact form</h2>
+				<div class="form">
+					<form action="">
+						<dl>
+							<dt><span class="required">お名前</span></dt>
+							<dd><input type="text" name="name" class="name" required></dd>
+							<dt><span class="required">メールアドレス</span></dt>
+							<dd><input type="email" name="email" class="email" required></dd>
+							<dt>電話番号</dt>
+							<dd><input type="tel" name="tel" class="tel"></dd>
+							<dt>問い合わせの種別</dt>
+							<dd>
+								<select name="type" class="type">
+									<option value="撮影についてのご依頼">サイトについてのご質問</option>
+									<option value="写真についてのご質問">写真についてのご質問</option>
+									<option value="その他お問い合わせ">その他お問い合わせ</option>
+								</select>
+							</dd>
+							<dt>ご希望のご連絡方法</dt>
+							<dd>
+								<input type="radio" name="contact" value="Eメール">Eメール
+								<input type="radio" name="contact" value="お電話">お電話
+							</dd>
+							<dt>メッセージ</dt>
+							<dd><textarea name="message" class="message"></textarea></dd>
+						</dl>
+						<button type="submit" class="btn">送信
+						</button>
+					</form>
+					<div class="attention">
+						<p>※「<span class="required"></span>」の付いている項目は必須項目です。<br>
+						※メッセージ送信後、48時間以内に担当者よりご連絡致します。</p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+</main>
+<!--wrap-->
+<!--footer-->
+<footer>
+	<small>(C)2018 Nori's WeD - studio.</small>
+</footer>
+<!--footer-->
+</body>
+</html>
