@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+/*-------------------
+	html (base font)
+--------------------*/
+html {
+	font-size: 62.5%;
+}
+
+a {
+	color: #00a85c;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #0a5329;
+}
+
+a:hover{
+	color: #ab0012;
+}
+
+/*----------------------------
+		for smartphone and all
+-----------------------------*/
+/*-------------------
+			body
+--------------------*/
+body {
+	font-size: 1.8rem;
+	color: #222;
+	background-color: #fff;
+	line-height: 1;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+
+/*-------------------
+	headline (h1-h4)
+--------------------*/
+
+h1,h2,h3,h4 {
+	margin: 35px 0 20px;
+	line-height: 1;
+}
+
+
+/*-------------------
+			nav
+--------------------*/
+
+ul {
+	margin: 1em 0;
+	list-style: none;
+	padding: 0;
+	font-family: 'Bitter', serif;
+	font-weight: bold;
+}
+
+span {
+	font-size: 1.1rem;
+	font-family: sans-serif;
+	color: #5d5b5b;
+}
+
+nav a {
+	display: block;
+	padding: 3px;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+/*--------------------------
+Layout (Header, main, footer)
+---------------------------*/
+main {
+	margin: 0 auto;
+}
+
+/*-------------------
+			footer
+--------------------*/
+footer {
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	margin-top: auto;
+}
+
+small {
+	font-size: 1.2rem;
+}
+
+/*-------------------
+			gotop
+--------------------*/
+#gotop {
+	width: 45px;
+	height: 45px;
+	background: #00000070;
+	border-radius: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	}
+
+#gotop a {
+	color: white;
+	font-size: 1.3em;
+	padding: 10px;
+	text-decoration: none;
+	}
+/*-------------------
+	for Tablet and PC
+--------------------*/
+
+
+@media screen and (min-width:600px) {
+	font-size: 5rem;
+	text-shadow: 2px 2px 1px #fd0000;
+}
+
+@media screen and (min-width:768px) {
+/*-------------------
+		Body (font-size)
+--------------------*/
+body {
+	font-size: 1.8rem;
+}
+
+main {
+	width: 100%;
+}
+/*-------------------------------------
+	Layout (Header,Main,Footer width)
+---------------------------------------*/
+ul {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	}
+
+nav a {
+	font-size: 2rem;
+	}
+
+h2 {
+	font-size: 2.3rem;
+	}
+
+h3 {
+	text-align: center;
+	}
+
+@media screen and (min-width:900px) {
+	main {
+		width: 80%;
+	}
+}

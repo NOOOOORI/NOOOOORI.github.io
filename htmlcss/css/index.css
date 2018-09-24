@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+#main-img{
+		background-image: url(../img/Home/main-png.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		/*background-attachment: fixed;*/
+		width: 100%;
+		height: 50vh;
+	}
+
+/*-------------------
+	h2 (Events, SNS)
+--------------------*/
+h2 {
+	font-family: 'Bitter', serif;
+	font-size: 2rem;
+	text-align: center;
+	}
+
+/*-------------------
+	 Layout Events Section
+--------------------*/
+article img {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	}
+
+/*-------------------
+	Events Article
+--------------------*/
+
+article h3 {
+	margin: 15px 0;
+	color: #00a85c;
+	text-align: center;
+	}
+
+article p {
+	font-size: 1.6rem;
+	line-height: 1.5;
+	margin: 40px;
+	}
+
+
+/*-------------------
+	SNS
+--------------------*/
+#SNS {
+	display: flex;
+	justify-content: space-around;
+	padding: 50px 0;
+	background-color: #f6f6f6;
+	}
+
+#SNS img {
+	display: block;
+	margin: 20px auto;
+	padding: 5px;
+}
+
+#SNS p {
+	margin-top: 10px;
+}
+
+hr {
+	width: 90%;
+}
+
+/*-------------------
+	for Tablet and PC
+--------------------*/
+
+@media screen and (min-width:768px) {
+/*-------------------------------------
+	Layout (Header,Main,Footer width)
+---------------------------------------*/
+
+#Events {
+	display: flex;
+	justify-content: space-around;
+	}
+
+	article  {
+		width: 30%;
+		margin: 0 15px;
+	}
+
+	article img {
+		height: 200px;
+		display: block;
+		margin: 0 auto;
+	}
+
+	article p {
+		margin: 30px;
+	}
+}
+
+@media screen and (min-width:900px) {
+
+	#main-img {
+		height: 70vh;
+	}
+
+	article {
+		width: 33%
+	}
+
+	h3 {
+		text-align: center;
+	}
+}
