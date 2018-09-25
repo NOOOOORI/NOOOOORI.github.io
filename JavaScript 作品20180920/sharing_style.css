@@ -136,9 +136,12 @@ article p {
 	width: 90%;
 	line-height: 1.5;
 	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
 }
 
-#comment {
+.comment {
 	text-align: center;
 	color: #ffffff;
 }
@@ -147,29 +150,38 @@ h3 {
 	margin: 8px;
 }
 
-#name {
-	height: 20px;
-}
 
-.message {
+#message {
 	width: 300px;
 	height: 100px
 }
 
-.button {
+#button {
 	width: 100px;
-	height: 35px;
+	height: 50px;
 	border-radius: 5px;
 	color: #fff;
 	background-color: #2eb7ed;
-	border: 3px solid #2eb7ed;
-	margin: 0 auto;
+/*	border: 3px solid #2eb7ed;*/
+	margin: 20px auto;
 	display: block;
 }
 
-#comment {
-	display: block;
+hr {
+	width: 80%;
+	height: 2px;
+}
+
+.leave-comment {
+	text-align: center;
+	color: #ffffff;
+}
+
+#output {
+	background-color: #bab3b2;
+	width: 80%;
 	margin: 0 auto;
+	padding: 10px;
 }
 
 footer {
