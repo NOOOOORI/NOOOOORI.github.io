@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="description" content="Infomation Sharing Site,情報共有サイト">
+	<meta name="keywords" content="Infomation,Sharing,How to">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="sharing_style.css">
+	<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+	<title>Sharing..Official Web Site</title>
+</head>
+<body id="index">
+<div class="main-wrap">
+	<div class="header">
+		<h1><a href="">Share with</a></h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#">Login</a></li>
+				<li><a href="#">Signup</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="contents">
+		<div class="left-side">
+			<p>Share HTML/CSS, JavaScript, jQuery technic and some trick.</p>
+			<p class="timer">Limit of Sign Up<br><span id="day"></span>days,<span id="hour"></span>h,<span id="min"></span>min,<span id="sec"></span>sec</p>
+		</div>
+		<div class="right-side">
+			<h2>Sign Up</h2>
+			<form action="" id="form">
+				<dl>
+					<dt>User Name</dt>
+					<dd><input type="text" name="username" autocomplete="off"></dd>
+					<dt>E-Mail</dt>
+					<dd><input type="text" name="email" autocomplete="off"></dd>
+					<dt>PassWord</dt>
+					<dd><input type="password" name="password"></dd>
+				</dl>
+				<button type="submit" class="btn">Sign Up</button>
+			</form>
+		</div>
+	</div>
+	<section>
+		<h2 id="about">About</h2>
+		<article>
+		<p>Share with is Infomation Sharing site. You can share infomation about HTML,CSS,JavaScript,Java,PHP etc...<br>also you can ask infomation and technic or some trick.</p>
+		</article>
+	</section>
+	<section class="comment">
+		<h2>Comment</h2>
+		<textarea name="comment" id="message" placeholder="Comment" required></textarea>
+	</section>
+	<div id="button">
+		<button type="submit" id="button" value="Comment">Comment</button>
+	</div>
+<!-- 	<hr>
+	<h2 class="leave-comment">leave a comment</h2>
+	<p id="output"></p> -->
+</div>
+<!-- <script>
+	document.getElementById('button').onsubmit = function(){
+	var comment = document.getElementById('message').message.value;
+	document.getElementById('output').textContent = comment
+	};
+
+	
+</script> -->
+<footer>
+	<small>(C)2018 Nori's WeD - studio.</small>
+</footer>
+<script src="javascript.js"></script>
+<script src="js.cookie.js"></script>
+</body>
+</html>
