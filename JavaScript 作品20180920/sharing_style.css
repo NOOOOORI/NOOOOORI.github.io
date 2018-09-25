@@ -124,26 +124,47 @@ input {
 	font-weight: bold;
 }
 
-hr {
-	width: 90%;
-	height: 3px;
-}
-
 #about {
 	text-align: center;
- 	color: #ffffff;
- 	font-size: 2rem;
-}
-
-#about p {
-	text-align: center;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000;
 }
 
 article p {
-	margin: 30px;
+	margin: 0 auto;
+	background-color: #0006;
+	width: 90%;
 	line-height: 1.5;
-	font-size: 1.5rem;
 	color: #ffffff;
+}
+
+#comment {
+	text-align: center;
+	color: #ffffff;
+}
+
+h3 {
+	margin: 8px;
+}
+
+#name {
+	height: 20px;
+}
+
+.message {
+	width: 300px;
+	height: 100px
+}
+
+.button {
+	width: 100px;
+	height: 35px;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #2eb7ed;
+	border: 3px solid #2eb7ed;
+	margin: 0 auto;
+	display: block;
 }
 
 footer {
