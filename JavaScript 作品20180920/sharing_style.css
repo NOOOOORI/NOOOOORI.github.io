@@ -167,6 +167,11 @@ h3 {
 	display: block;
 }
 
+#comment {
+	display: block;
+	margin: 0 auto;
+}
+
 footer {
 	text-align: center;
 	color: #000000;
