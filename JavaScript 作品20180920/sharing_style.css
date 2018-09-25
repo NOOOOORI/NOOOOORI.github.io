@@ -131,14 +131,15 @@ input {
 }
 
 article p {
-	margin: 0 auto;
+	margin: 20px auto;
 	background-color: #0006;
 	width: 90%;
 	line-height: 1.5;
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #000;
+	text-align: center;
 }
 
 .comment {
