@@ -1,3 +1,4 @@
+//countdown
 var countdown = function(due) {
 	var now = new Date();
 
@@ -26,7 +27,9 @@ var refresh = function(){
 	setTimeout(recalc,1000);
 }
 recalc();
+//!countdown
 
+//Cookie
 document.getElementById('form').onsubmit = function(){
 	var username = document.getElementById('form').username.value;
 
@@ -38,4 +41,5 @@ document.getElementById('form').onsubmit = function(){
 		Cookies.set('answered', 'yes', {expires: 365});
 	};
 };
+//!Cookie
 
