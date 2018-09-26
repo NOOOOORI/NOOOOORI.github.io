@@ -119,6 +119,10 @@ footer {
 	.main-center {
 		width: 60%;
 	}
+
+	.profile-txt {
+		font-size: 18px;
+	}
 }
 
 @media screen and (min-width: 1440px) {

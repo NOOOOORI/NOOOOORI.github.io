@@ -94,7 +94,20 @@ input, select {
 }
 
 @media screen and (min-width: 768px) {
+	#contact .logo h2 {
+		font-size: 2.5rem;
+	}
+
+	.form button {
+		margin: 0 auto;
+		width: 40%;
+	}
+
 	dt {
 		margin: 0 10px;
+	}
+
+	.attention {
+		text-align: center;
 	}
 }
