@@ -1,0 +1,91 @@
+@charset "utf-8";
+#portfolio {
+	background-image: url(../images/bg-portfolio.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1 {
+	font-family: 'Bitter',serif;
+	font-size: 2rem;
+}
+
+h2 {
+	color: #f7f6f4;
+	font-size: 2em;
+	text-shadow: 1px 1px 1px #767671;
+	font-family: 'Bitter',serif;
+}
+
+.main p {
+	width: 80%;
+	margin: 0 auto 20px;
+}
+
+.sidebar {
+	font-family: 'Bitter',serif;
+	display: flex;
+	justify-content: space-around;
+}
+
+.sidebar h2 {
+	color: #000000;
+}
+
+a img:hover {
+	opacity: 0.8;
+}
+
+.sidebar ul {
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+.sidebar ul a {
+	color: #333333;
+}
+
+article img {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+footer {
+	background-color: #767671;
+}
+
+@media screen and (min-width: 768px) {
+	.content {
+		display: flex;
+	}
+
+	.sidebar {
+	display: block;
+	padding: 30px;
+	}
+
+	.sidebar section h2 {
+		margin: 0 auto;
+	}
+
+	section li {
+	margin: 20px;
+	}
+
+	article h2 {
+		margin: 0;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.logo h2 {
+		font-size: 2.5rem;
+	}
+	.content {
+		width: 60%;
+		margin: 0 auto;
+	}
+}

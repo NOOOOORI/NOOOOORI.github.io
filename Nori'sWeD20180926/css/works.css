@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+#works {
+	background-image: url(../images/bg-video.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.content {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.logo h2 {
+	color: #f7f6f4;
+	font-size: 2em;
+	text-shadow: 1px 1px 1px #767671;
+}
+
+.main h1 {
+	font-size: 2rem;
+}
+
+#movie img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	margin: 10px auto;
+	border: 2px solid #000000;
+}
+
+.sidebar {
+	font-family: 'Bitter',serif;
+	display: flex;
+	justify-content: space-around;
+}
+
+.sidebar h2 {
+	color: #000000;
+	margin: 0;
+}
+.sidebar ul {
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+.sidebar section li {
+	margin: 0;
+}
+
+.sidebar ul a {
+	color: #333333;
+}
+
+section h2 {
+	font-size: 2rem;
+}
+
+footer {
+	background-color: #767671;
+}
+
+@media screen and (min-width: 768px) {
+	.content {
+		margin: 0 auto;
+	}
+
+	.sidebar h2 {
+		text-align: left;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.content {
+		display: flex;
+	}
+
+	.sidebar {
+		display: block;
+		margin: 100px 20px 0 50px;
+	}
+}
+
+@media screen and (min-width: 1340px) {
+	.content {
+		width: 100%;
+	}
+
+	.main {
+		width: 65%;
+		margin: 0 auto;
+	}
+}
