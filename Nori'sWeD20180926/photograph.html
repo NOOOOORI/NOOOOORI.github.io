@@ -7,7 +7,13 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="css/photograph.css">
 	<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
-	<link rel="stylesheet" href="css/lightbox.css">
+	<link rel="stylesheet" href="css/baguetteBox.css" media="all">
+	<script src="js/baguetteBox.js"></script>
+	<script>
+		window.onload = function() {
+			baguetteBox.run('#gallerys')
+		}
+	</script>
 </head>
 <body id="photograph">
 
@@ -34,51 +40,53 @@
 			<h1>Picture</h1>
 			<p>これまでに撮影した写真をシーン別に掲載。
 				<br>*クリックで拡大表示</p>
+		<div id="gallerys">
 			<article id="city">
 				<h2 class="icon">City</h2>
 				<ul class="photograph-list">
-					<li><a href="images/city-pic/playland-big.jpg" data-lightbox="city" data-title="PlayLand"><img src="images/city-pic/playland.jpg" alt="playland"></a></li>
-					<li><a href="images/city-pic/pride-big.jpg" data-lightbox="city" data-title="Davie Street"><img src="images/city-pic/pride.jpg" alt="street"></a></li>
-					<li><a href="images/city-pic/bluefox-big.jpg" data-lightbox="city" data-title="Bule Fox Cafe"><img src="images/city-pic/bluefox.jpg" alt="cafe"></a></li>
-					<li><a href="images/city-pic/christmasMarket-big.jpg" data-lightbox="city" data-title="ChristmasMarket"><img src="images/city-pic/christmasMarket.jpg" alt="market"></a></li>
-					<li><a href="images/city-pic/banff-big.jpg" data-lightbox="city" data-title="Banff"><img src="images/city-pic/banff.jpg" alt="banff"></a></li>
-					<li><a href="images/city-pic/photograph-city-06-big.jpg" data-lightbox="city" data-title="WaterFront"><img src="images/city-pic/photograph-city-06.jpg" alt=""></a></li>
+					<li><a href="images/city-pic/playland-big.jpg"><img src="images/city-pic/playland.jpg" alt="playland"></a></li>
+					<li><a href="images/city-pic/pride-big.jpg"><img src="images/city-pic/pride.jpg" alt="street"></a></li>
+					<li><a href="images/city-pic/bluefox-big.jpg"><img src="images/city-pic/bluefox.jpg" alt="cafe"></a></li>
+					<li><a href="images/city-pic/christmasMarket-big.jpg"><img src="images/city-pic/christmasMarket.jpg" alt="market"></a></li>
+					<li><a href="images/city-pic/banff-big.jpg"><img src="images/city-pic/banff.jpg" alt="banff"></a></li>
+					<li><a href="images/city-pic/photograph-city-06-big.jpg"><img src="images/city-pic/photograph-city-06.jpg" alt=""></a></li>
 				</ul>
 			</article>
 			<article id="beach">
 				<h2 class="icon">Beach</h2>
 				<ul class="photograph-list">
-					<li><a href="images/beach-pic/kitsilano-big.jpg" data-lightbox="beach" data-title="Kitsilano Beach"><img src="images/beach-pic/kitsilano.jpg"></a></li>
-					<li><a href="images/beach-pic/photograph-beach-02-big.jpg" data-lightbox="beach" data-title="Valle_de_Bravo"><img src="images/beach-pic/photograph-beach-02.jpg"></a></li>
-					<li><a href="images/beach-pic/photo-beach03-big.jpg" data-lightbox="beach" data-title="Shirahama Beach"><img src="images/beach-pic/photo-beach03.jpg"></a></li>
-					<li><a href="images/beach-pic/photo-beach04-big.jpg" data-lightbox="beach" data-title="Akashi Channel"><img src="images/beach-pic/photo-beach04.jpg"></a></li>
-					<li><a href="images/beach-pic/photo-beach05-big.jpg" data-lightbox="beach" data-title="Shirahama Beach"><img src="images/beach-pic/photo-beach05.jpg"></a></li>
-					<li><a href="images/beach-pic/photograph-beach-06-big.jpg" data-lightbox="beach" data-title="English Bay"><img src="images/beach-pic/photograph-beach-06.jpg"></a></li>
+					<li><a href="images/beach-pic/kitsilano-big.jpg"><img src="images/beach-pic/kitsilano.jpg"></a></li>
+					<li><a href="images/beach-pic/photograph-beach-02-big.jpg"><img src="images/beach-pic/photograph-beach-02.jpg"></a></li>
+					<li><a href="images/beach-pic/photo-beach03-big.jpg"><img src="images/beach-pic/photo-beach03.jpg"></a></li>
+					<li><a href="images/beach-pic/photo-beach04-big.jpg"><img src="images/beach-pic/photo-beach04.jpg"></a></li>
+					<li><a href="images/beach-pic/photo-beach05-big.jpg"><img src="images/beach-pic/photo-beach05.jpg"></a></li>
+					<li><a href="images/beach-pic/photograph-beach-06-big.jpg"><img src="images/beach-pic/photograph-beach-06.jpg"></a></li>
 				</ul>
 			</article>
 			<article id="forest">
 				<h2 class="icon">Forest</h2>
 				<ul class="photograph-list">
 					<li>
-						<a href="images/forest-pic/photograph-forest-01-big.jpg" data-lightbox="forest"><img src="images/forest-pic/photograph-forest-01.jpg" alt=""></a>
+						<a href="images/forest-pic/photograph-forest-01-big.jpg"><img src="images/forest-pic/photograph-forest-01.jpg" alt=""></a>
 					</li>
 					<li>
-						<a href="images/forest-pic/photograph-forest-02-big.jpg" data-lightbox="forest"><img src="images/forest-pic/photograph-forest-02.jpg" alt=""></a>
+						<a href="images/forest-pic/photograph-forest-02-big.jpg"><img src="images/forest-pic/photograph-forest-02.jpg" alt=""></a>
 					</li>
 					<li>
-						<a href="images/forest-pic/photograph-forest-03-big.jpg" data-lightbox="forest"><img src="images/forest-pic/photograph-forest-03.jpg" alt=""></a>
+						<a href="images/forest-pic/photograph-forest-03-big.jpg"><img src="images/forest-pic/photograph-forest-03.jpg" alt=""></a>
 					</li>
 					<li>
-						<a href="images/forest-pic/photograph-forest-04-big.jpg" data-lightbox="forest"><img src="images/forest-pic/photograph-forest-04.jpg" alt=""></a>
+						<a href="images/forest-pic/photograph-forest-04-big.jpg"><img src="images/forest-pic/photograph-forest-04.jpg" alt=""></a>
 					</li>
 					<li>
-						<a href="images/forest-pic/photo-forest-big01.jpg" data-lightbox="forest"><img src="images/forest-pic/photo-forest01.jpg" alt="forest"></a>
+						<a href="images/forest-pic/photo-forest-big01.jpg"><img src="images/forest-pic/photo-forest01.jpg" alt="forest"></a>
 					</li>
 					<li>
-						<a href="images/forest-pic/photo-forest-big02.jpg" data-lightbox="forest"><img src="images/forest-pic/photo-forest02.jpg" alt="forest"></a>
+						<a href="images/forest-pic/photo-forest-big02.jpg"><img src="images/forest-pic/photo-forest02.jpg" alt="forest"></a>
 					</li>
 				</ul>
 			</article>
+		</div>
 		</section>
 		<aside class="sidebar">
 			<section>
@@ -104,12 +112,5 @@
 	<small>(C)2018 Nori's WeD.</small>
 </footer>
 <!--footer-->
-<script src="js/lightbox-plus-jquery.min.js"></script>
-<script>
-	lightbox.option({
-		'resizeDuration': 100,
-		'wrapAround': true
-	})
-</script>
 </body>
 </html>
