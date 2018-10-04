@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+#about {
+	background-image: url(../images/bg-about.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.logo h2 {
+	color: #f7f6f4;
+	font-size: 2em;
+	text-shadow: 1px 1px 1px #767671;
+}
+
+.main-center {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.main p {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Bitter',serif;
+	font-size: 2rem;
+	border-bottom: 1px solid #cccccc;
+}
+
+h2 {
+	font-family: 'Bitter', serif;
+	font-size: 24px;
+	margin-left: 5px;
+}
+
+.icon:before {
+	content: "";
+	padding-right: 10px;
+	border-left: 7px solid #9cb4a4;
+}
+
+.profile-txt span {
+	font-weight: bold;
+}
+
+.profile-image {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+section {
+	margin-bottom: 35px;
+}
+
+.career th {
+	width: 240px;
+	background-color: #f0f0f0;
+	padding: 12px 0;
+	border: 1px solid #cccccc;
+}
+
+.career td {
+	width: 660px;
+	padding: 12px 0 12px 40px;
+	border: 1px solid #cccccc;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+footer {
+	text-align: center;
+	color: #ffffff;
+	background-color: #767671;
+	margin-top: auto;
+}
+
+@media screen and (min-width: 768px){
+	.logo h2 {
+		margin: 50px;
+	}
+
+	.profile {
+		display: flex;
+		width: 100%;
+	}
+
+	.profile-image {
+		width: 50%;
+		padding-top: 80px;
+	}
+
+	span {
+		font-size: 1.3rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.logo h2 {
+		font-size: 2.5rem;
+	}
+
+	.profile-image {
+		width: 50%;
+		margin: 20px;
+	}
+
+	.main-center {
+		width: 60%;
+	}
+
+	.profile-txt {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.profile-image {
+		margin-left: 50px;
+	}
+}
