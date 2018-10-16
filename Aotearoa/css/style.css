@@ -53,19 +53,18 @@ header li {
 	list-style: none;
 	margin: 40px 50px 10px 40px;
 	color: #ffffff;
+	font-size: 4vmin;
 }
 
-a {
-  padding-top: 70px;
 }
 a span {
   position: absolute;
   left: 50%;
-  width: 24px;
-  height: 24px;
+  width: 42px;
+  height: 42px;
   margin-left: -12px;
-  border-left: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+  border-left: 8px solid #fff;
+  border-bottom: 8px solid #fff;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb 1.5s infinite;
@@ -105,14 +104,14 @@ main {
 	margin: 0 auto;
 }
 
-main img {
+/*main img {
 	min-width: 500px;
 	max-width: 800px;
-}
+}*/
 
 #about h1 {
 	text-align: center;
-	font-size: 50px;
+	font-size: 8vmin;
 	margin: 0;
 	padding-top: 80px;
 }
@@ -121,6 +120,7 @@ main img {
 	text-align: center;
 	margin: 0 0 80px;
 	color: #c66600;
+	font-size: 1vmin;
 }
 
 .dots span {
@@ -128,18 +128,19 @@ main img {
 }
 
 .txt-box {
-	margin: 0 50px 100px;
-	text-align: center;
-	width: 50%;
+	margin: 0 auto 100px;
+	text-align: left;
+	/*width: 50%;*/
 }
 
 .txt-box h1 {
-	font-size: 42px;
+	font-size: 9vmin;
 	margin: 10px 0 0;
 }
 
 .txt-box h2 {
 	margin: 0;
+	font-size: 4vmin;
 }
 
 .txt-box p {
@@ -147,15 +148,15 @@ main img {
 	line-height: 1.5;
 }
 
-#aotearoa {
+/*#aotearoa {
 	display: flex;
 	margin-bottom: 50px;
-}
+}*/
 
 #aotearoa img {
 	width: 100%;
-	display: flex;
-	flex-wrap: nowrap;
+/*	display: flex;
+	flex-wrap: nowrap;*/
 }
 
 .readmore {
@@ -164,19 +165,19 @@ main img {
 }
 
 #maori {
-	display: flex;
-	flex-direction: row-reverse;
+/*	display: flex;
+	flex-direction: row-reverse;*/
 }
 
 #maori img {
 	width: 100%;
-	max-height: 500px;
+/*	max-height: 500px;
 	display: flex;
-	flex-wrap: nowrap;
+	flex-wrap: nowrap;*/
 }
 
 #island {
-	display: flex;
+	/*display: flex;*/
 }
 
 #island .img {
@@ -185,9 +186,9 @@ main img {
 
 #island img {
 	width: 100%;
-	max-height: 500px;
+/*	max-height: 500px;
 	display: flex;
-	flex-wrap: nowrap;
+	flex-wrap: nowrap;*/
 }
 
 #info-sec {
@@ -197,7 +198,7 @@ main img {
 }
 
 #info-sec h1 {
-	font-size: 40px;
+	font-size: 8vmin;
 	padding-top: 80px;
 	margin: 0;
 }
@@ -206,6 +207,7 @@ main img {
 	width: 90%;
 	margin: 0 auto;
 	padding-bottom: 100px;
+	font-size: 5vmin;
 }
 
 dl, dd {
@@ -219,13 +221,15 @@ dt {
 
 input {
 	width: 100%;
-	height: 30px;
+	height: 5vh;
 	text-align: center;
+	font-size: 5vmin;
 }
 
 .message {
 	width: 100%;
-	height: 150px;
+	height: 40vh;
+	font-size: 5vmin;
 }
 
 .btn {
@@ -237,12 +241,13 @@ input {
 	transition: .4s;
 	font-family: 'Ubuntu', sans-serif;
 	font-family: 'Bitter', serif;
-	font-size: 18px;
+	font-size: 5vmin;
 }
 
 footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 80px;
+	height: 10vh;
+	font-size: 4vmin;
 }
