@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+#bg-img {
+	height: 30vh;
+}
+
+.title-txt h2, p {
+	text-align: center;
+	margin: 50px auto;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+}
+
+path {
+  fill: #5fd35f;
+  stroke: #165016;
+  stroke-width: 1;
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+path:hover {
+  fill: #2ca02c;
+}
