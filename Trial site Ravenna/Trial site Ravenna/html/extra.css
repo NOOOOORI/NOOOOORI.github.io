@@ -1,0 +1,381 @@
+@charset "utf-8";
+
+html,body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+	max-width: 1660px;
+	background-color: #ffd9b2;
+}
+
+#mainNav ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 0;
+	font-family: 'Bree Serif', serif;
+}
+
+#mainNav ul li {
+	font-size: 3.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #ff4700;
+}
+
+a:visited {
+	color: #ff4700;
+}
+
+a:hover {
+	color: #ffffff;
+	text-decoration: overline;
+	border-bottom: 2px solid;
+}
+
+.header-img {
+	background-image: url("../img/M003.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vmin;
+}
+
+main {
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+#logo {
+	max-width: 1000px;
+	margin: 0 auto
+}
+
+#logo img {
+	width: 100%;
+	margin: 40vmin 0;
+}
+
+.pizza .pizzaimg img {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.popup-contents {
+	position: relative;
+	display: inline-block;
+ 	margin: 1.5em 0;
+	padding: 7px 10px;
+	background: #ffc645;
+}
+
+.popup-contents:before{
+	content: "";
+	position: absolute;
+	top: -30px;
+	left: 50%;
+ 	margin-left: -15px;
+	border: 15px solid transparent;
+	border-bottom: 15px solid #ffdbbc;
+}
+
+.balloon1-top p {
+	margin: 0;
+	padding: 0;
+}
+
+.popup-contents h4 {
+	font-size: 3.5em;
+	margin: 0;
+	color: #9e0000;
+	font-family: 'Bree Serif', serif;
+}
+
+.popup-contents p {
+	font-size: 2em;
+	font-family: "Sawarabi Mincho";
+	font-weight: bold;
+}
+
+.popup-contents .making {
+	width: 100%;
+}
+
+button {
+	  padding: 3px;
+    border: 3px solid #ffbc00;
+    background-color: #ff5e00;
+    color: honeydew;
+}
+
+.catch1 h2 {
+	font-size: 2.7em;
+	font-family: "Sawarabi Mincho";
+	font-weight: bold;
+}
+
+.catch1 p {
+	font-size: 2em;
+	font-family: "Sawarabi Mincho";
+	font-weight: bold;
+}
+
+.pic1 img {
+	width: 100%;
+}
+
+.pic2 img {
+	width: 100%;
+}
+
+.pic3 img {
+	width: 100%;
+}
+
+.catch2-wrap h2 {
+	font-size: 2.5em;
+	font-family: "Sawarabi Mincho";
+	font-weight: bold;
+}
+
+.catch2-wrap p {
+	font-size: 2em;
+	font-family: "Sawarabi Mincho";
+	font-weight: bold;
+}
+
+.catch2-wrap button {
+	margin: 0 0 30px 0;
+}
+
+.txt-nav h2 {
+	font-size: 4em;
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+}
+
+.txt-nav p {
+	font-size: 2.3em;
+	width: 90%;
+	margin: 20px auto;
+}
+
+.txt-nav .footernav ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	padding: 0;
+	flex-wrap: wrap;
+}
+
+.txt-nav .footernav ul li {
+	padding: 30px;
+	font-family: 'Bree Serif', serif;
+}
+
+.txt-nav li a {
+	font-size: 2.5em;
+}
+
+.info-txt {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.info-txt h2 {
+	font-size: 3em;
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+}
+
+#footer-img {
+	width: 90%;
+	margin: 0 auto
+}
+
+#footer-img img {
+	width: 100%;
+}
+
+footer p {
+	text-align: center;
+	font-size: 2.3em;
+}
+
+@media screen and (min-width: 485px) {
+
+	.pizza .pizzaimg img {
+		width: 45%;
+		float: left;
+		margin: 5vmin 3vmin;
+	}
+
+	.popup-contents {
+		width: 33%;
+		margin: 3vmin;
+	}
+
+	.popup-contents:before {
+		border-bottom: none;
+	}
+
+	#pic-contents {
+		clear: both;
+	}
+
+	.pic1 img {
+		width: 70%;
+		float: left;
+	}
+
+	.pic2 img {
+		width: 70%;
+		position: relative;
+		float: right;
+		top: -40px;
+	}
+
+	.pic3 {
+		clear: both;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.catch1 {
+		text-align: center;
+	}
+
+	.catch1 h2 {
+		font-size: 4em;
+	}
+
+	.catch1 p {
+		font-size: 2.3em;
+		line-height: 1.6;
+	}
+
+	.popup-contents h4 {
+		font-size: 4em;
+	}
+
+	.popup-contents p {
+		font-size: 2.3em;
+	}
+
+	.catch2-wrap h2 {
+		font-size: 4em;
+	}
+
+	.catch2-wrap p {
+		font-size: 2.3em;
+	}
+
+	.txt-nav li a {
+		font-size: 3.5em;
+	}
+
+	.txt-nav h2 {
+		font-size: 5em;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.catch1 {
+		float: right;
+		width: 50%;
+		margin-top: 100px;
+		text-align: left;
+	}
+
+	.catch1 h2 {
+		margin-top: 0;
+	}
+
+	.catch1 p {
+		margin: 0;
+	}
+
+	.pizzaimg {
+		position: relative;
+		top: -50px;
+	}
+
+	.pizza .pizzaimg img {
+		margin: 0;
+	}
+
+	.popup-contents {
+		float: left;
+		top: -80px;
+		left: 85px;
+	}
+
+	#pic-contents {
+		clear: none;
+	}
+
+	.pic1 img {
+		width: 50%;
+		float: right;
+	}
+
+	.pic2 img {
+		width: 40%;
+		float: left;
+		left: -50px;
+	}
+
+	.pic3 {
+		clear: none;
+	}
+
+	.pic3 img {
+		width: 45%;
+		float: left;
+		position: relative;
+		top: -50px;
+	}
+
+	.catch2-wrap {
+		width: 48%;
+		float: right;
+	}
+
+	hr {
+		clear: both;
+	}
+
+	footer {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+	.info {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#footer-img {
+		width: 30%;
+		margin: 0;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	main {
+		max-width: 1000px;
+	}
+
+	.pizza .pizzaimg img {
+		width: 40%;
+		float: none;
+	}
+}

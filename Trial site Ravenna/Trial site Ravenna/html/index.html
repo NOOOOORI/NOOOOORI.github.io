@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Italian Dining Ravenna</title>
+	<link rel="stylesheet" href="extra.css">
+	<!-- <link rel="stylesheet" href="../css/jquery.fatNav.css"> -->
+	<link rel="stylesheet" href="../css/meanmenu.css">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+<div>
+	<nav id="mainNav">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">PIZZA</a></li>
+			<li><a href="#">LUNCH</a></li>
+			<li><a href="#">DINNER</a></li>
+			<li><a href="#">WINE</a></li>
+			<li><a href="#">ACCESS</a></li>
+		</ul>
+	</nav>
+</div>
+<div class="header-img">
+	<div id="logo">
+		<img src="../img/logo.png" alt="">
+	</div>
+</div>
+</header>
+	<main>
+		<div>
+			<div class="catch1">
+				<h2>
+					恵比寿駅から徒歩5分<br>
+					女性に人気のイタリアンダイニングで<br>
+					楽しいひと時を
+				</h2>
+				<p>
+					ランチからディナーまで楽しめる<br>
+					恵比寿駅から徒歩5分のItalian Dining Ravenna(イタリアン ダイニング ラヴェンナ）<br>
+					女性に特に人気のお店で、カフェのようなおしゃれな空間と、明るく気さくなスタッフのおもてなしで<br>
+					気軽に本場のイタリアンとワインを楽しめます。<br>
+					本場イタリアから取り寄せた石窯で焼き上げるピザは絶品です！<br>
+
+					是非一度仕事帰りにおひとりで、仲間と一緒に、ちょっとした女子会にご利用ください！
+				</p>
+			</div>
+			<div class="pizza">
+				<div class="pizzaimg">
+					<img  src="../img/M001.png" alt="">
+				</div>
+			</div>
+			<div class="popup">
+				<div class="popup-contents">
+					<div>
+					<h4>Point!</h4>
+					<p>
+					石窯で焼き上げる<br>本場仕込みのピッツァは生地から手作り!</p>
+					</div>
+					<img class="making" src="../img/M007.jpg" alt="">
+					<button class="btn">本場手作りピッツァ</button>
+				</div>
+			</div>
+		</div>
+		<div id="pic-contents">
+			<div class="pic1">
+				<img src="../img/M006.jpg" alt="">
+			</div>
+			<div class="pic2">
+				<img src="../img/M005.jpg" alt="">
+			</div>
+			<div class="pic3">
+				<img src="../img/M004.jpg" alt="">
+			</div>
+		</div>
+		<div class="catch2">
+			<div class="catch2-wrap">
+				<h2>仕事帰りに
+				ワインとパスタで乾杯</h2>
+				<p>当店のパスタは、ワインと一緒に色々な種類が楽しめるよう
+				ボリュームを調整できたり、いろんな種類を一度に楽しむことができます。<br>
+				イタリア原産のワインも豊富にそろえておりますので、何度お越しいただいても
+				飽きないので、仕事帰りの女性の方にご好評いただいてます！</p>
+				<div>
+					<button>ワインの紹介はこちら</button>
+				</div>
+			</div>
+		</div>
+	</main>
+	<hr>
+<footer>
+	<div id="footer-wrap">
+		<div class="txt-nav">
+			<div>
+				<nav class="footernav">
+					<ul>
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">PIZZA</a></li>
+						<li><a href="#">LUNCH</a></li>
+						<li><a href="#">DINNER</a></li>
+						<li><a href="#">WINE</a></li>
+						<li><a href="#">ACCESS</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="info">
+			<div class="info-txt">
+			<h2>Italian Dining Ravenna</h2>
+			<p><strong>住所</strong> | 東京都恵比寿1-24-15 |
+				<strong>TEL</strong> | 03-1234-5678 |
+
+			<strong>営業時間</strong> | Lunch  11:00～14:00（L.O.13:30)<br>Dinner 17:00～23:00（L.O.22:30)<br>
+
+			<strong>定休日</strong> | 毎週月曜日</p>
+			</div>
+			<div id="footer-img">
+				<img src="../img/09.jpg" alt="">
+			</div>
+		</div>
+		<p>@Copyright Italian Dining Ravenna. All right reserved.</p>
+	</div>
+</footer>
+<script src="../js/jquery.meanmenu.js"></script>
+<script type="text/javascript">
+
+$(function(){
+	$('#mainNav').meanmenu({
+		meanScreenWidth: "480",
+	});
+});
+
+// $(function(){
+// 	var hide = $('#mainNav');
+
+// 	$(window).scroll(function(){
+// 		if($(this).scrollTop() > 300) {
+// 			hide.fadeOut();
+// 		}else{
+// 			hide.fadeIn();
+// 		}
+// 	});
+// });
+</script>
+</body>
+</html>
